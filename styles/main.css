@@ -1,0 +1,133 @@
+p {
+  font-family: "Gotham";
+}
+
+.header {
+  background-color: rgba(17, 63, 103, .9);
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.ESC_logo {
+  padding: 10px;
+  width: 10%;
+  height: auto;
+  display: inline-block;
+  position: relative;
+  float: left;
+  left: 40%;
+  margin: 10px;
+}
+
+.subhead {
+  font-family: "Gotham";
+  color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #13b5ea;
+  border-left: none;
+  border-right: none;
+  width: 15%;
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  margin-top: 20px;
+  float: right;
+  right: 33%;
+}
+
+
+.background-wrapper{
+  position: relative;
+  z-index: -1;
+}
+
+.businessmen {
+  height: auto;
+  width: 100%;
+  display: block;
+}
+
+.content {
+  background-color: rgba(255,255,255,.8);
+  border-radius: 15px;
+  width: 500px;
+  height: auto;
+  padding: 20px;
+  position: absolute;
+  top: 350px;
+  left: 60%;
+  text-align: center;
+  z-index: 1;
+}
+
+h1 {
+  font-family: "Gotham";
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Gotham";
+  font-size: 20px;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  background-color: #113f67;
+  color: white;
+  font-family: "Gotham";
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.eform {
+  text-decoration: none;
+  color: white;
+}
+
+.eform:hover {
+  text-decoration: none;
+  color: #007dc3;
+}
+
+.eform:active {
+  text-decoration: none;
+  color: white;
+}
+
+.eform:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.FAQ {
+  background-color: #e9eaeb;
+  overflow: auto;
+}
+
+.foot {
+  background-color: black;
+  height: 55px;
+}
+
+.IAG_logo {
+  height: 50px;
+  padding: 10px 20px 10px 10px;
+  float: left;
+  margin-left: 10%;
+}
+
+.footer {
+  font-family: "Gotham";
+  font-size: 12px;
+  color: white;
+  padding-top: 17px;
+}
