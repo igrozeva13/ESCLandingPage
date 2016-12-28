@@ -52,7 +52,7 @@ p {
 .content {
   background-color: rgba(255,255,255,.8);
   border-radius: 15px;
-  width: 500px;
+  width: 35%;
   height: auto;
   padding: 20px;
   position: absolute;
@@ -60,6 +60,59 @@ p {
   left: 60%;
   text-align: center;
   z-index: 1;
+  float: right;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 0px;
+}
+
+li{
+  display: inline-block;
+  text-align: center;
+}
+
+.tab1 {
+    padding: 10px;
+    font-family: "Gotham";
+    font-weight: bold;
+    color: white;
+    background-color: rgba(17, 63, 103, .9);
+    width: 200px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.tab2 {
+    padding: 10px;
+    font-family: "Gotham";
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 125, 194, .9);
+    width: 200px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.tab3 {
+    padding: 10px;
+    font-family: "Gotham";
+    font-weight: bold;
+    color: white;
+    background-color: rgba(19, 181, 234, .9);
+    width: 200px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.divider {
+  background-color: rgba(17, 63, 103, .9);
+  z-index: 2;
+  height: 20px;
 }
 
 h1 {
@@ -80,12 +133,17 @@ button {
   background-color: #113f67;
   color: white;
   font-family: "Gotham";
+  font-weight: bold;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  padding: 10px;
+  padding: 12px;
   margin: 5px;
+}
+
+.info {
+  margin: 0px 20px 30px 20px;
 }
 
 .eform {
@@ -111,6 +169,29 @@ button {
 .FAQ {
   background-color: #e9eaeb;
   overflow: auto;
+}
+
+h3 {
+  padding: 20px;
+  font-family: "Gotham";
+  font-size: 16px;
+}
+
+.Q1 {
+  background-color: white;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin: -20px 50px 50px 50px;
+}
+
+.buttons {
+  padding: 10px;
+  display: block;
+  text-align: center;
+}
+
+p {
+  padding: 0px 20px 20px 20px;
 }
 
 .foot {
