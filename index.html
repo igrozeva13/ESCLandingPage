@@ -13,6 +13,7 @@
 
 
 <body>
+
 <div class="header">
   <img class="ESC_logo" alt="ESC_logo" src="img/IAG_ESC_Logo2016_white.png">
   <p class="subhead">Providing Your Health Insurance Benefits for 2017</p>
@@ -36,24 +37,22 @@
       <li class="tab1 active"><a data-toggle="tab" href="#plan">Plan Options</a></li>
       <li class="tab2"><a data-toggle="tab" href="#network">Network Information</a></li>
       <li class="tab3"><a data-toggle="tab" href="#aca">ACA Information</a></li>
-<!-- <li class="tab1"><button class="button2">Plan Options</button></li>
-      <li class="tab2"><button class="button2">Network Info</button></li>
-      <li class="tab3"><button class="button2">ACA Information</button></li> -->
       </ul>
     </div>
 
 
-    <div class="tab1 divider">
+    <div class="divider">
     </div>
 
-<!--    <div class="tab2 divider ">
+<!--
+
+    <div class="tab2 divider" >
     </div>
 
     <div class="tab3 divider">
     </div> -->
 
 </div>
-
 
 
 <div class="tab-content">
@@ -105,6 +104,12 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+
+<script>
+$(".divider").on("click", function() {
+    $(this).css("background", "rgba(0, 125, 194, .8)");
+});
+</script>
 </body>
 
 

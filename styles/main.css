@@ -132,6 +132,7 @@ li{
   border-top-right-radius: 10px;
 }
 
+
 .tab1 {
     background-color: rgba(17, 63, 103, .8);
 }
@@ -150,6 +151,7 @@ li{
 }
 
 .divider {
+  background: rgba(17, 63, 103, .8);
   z-index: 2;
   height: 20px;
 }
