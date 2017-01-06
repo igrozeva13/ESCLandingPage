@@ -191,6 +191,19 @@ a:visited {
   margin: 0px 20px 30px 20px;
 }
 
+.button3 {
+  border-radius: 5px;
+  background-color: rgba(0, 125, 194, 1);
+  font-size: 16px;
+  padding: 10px 15px 10px 15px;
+}
+
+.button4 {
+  border-radius: 5px;
+  background-color: rgba(19, 181, 234, 1);
+  font-size: 16px;
+  padding: 10px 15px 10px 15px;
+}
 
 .tab-content {
   background-color: #e9eaeb;
