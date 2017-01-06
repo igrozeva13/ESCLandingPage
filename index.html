@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ESC Landing Page</title>
-  <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
 
 
 <body>
+
 <div class="header">
   <img class="ESC_logo" alt="ESC_logo" src="img/IAG_ESC_Logo2016_white.png">
   <p class="subhead">Providing Your Health Insurance Benefits for 2017</p>
@@ -29,17 +34,19 @@
 
     <div class="tab">
       <ul>
-      <li class="tab1"><button class="button2">Plan Options</button></li>
-      <li class="tab2"><button class="button2">Network Info</button></li>
-      <li class="tab3"><button class="button2">ACA Information</button></li>
+      <li class="tab1 active"><a data-toggle="tab" href="#plan">Plan Options</a></li>
+      <li class="tab2"><a data-toggle="tab" href="#network">Network Information</a></li>
+      <li class="tab3"><a data-toggle="tab" href="#aca">ACA Information</a></li>
       </ul>
     </div>
 
 
-    <div class="tab1 divider">
+    <div class="divider">
     </div>
+
 <!--
-    <div class="tab2 divider">
+
+    <div class="tab2 divider" >
     </div>
 
     <div class="tab3 divider">
@@ -48,8 +55,8 @@
 </div>
 
 
-<div class="FAQ">
-  <div class="Q1">
+<div class="tab-content">
+  <div id="plan" class="Q1 tab-pane fade in active">
     <h3>Q: What are your Health Care options?</h3>
     <p> A: Your first plan option is a Fixed Indemnity Medical Plan. This plan pays a specified amount of money per day based on the service provided, regardless of the cost of the service. For those that participate in the medical plan, dental, vision, disability and life benefits are also available for election. Enrolling in the Fixed Indemnity Medical Plan does not satisfy the Individual Mandate and you will be subject to the federal tax. This plan allows you to receive a subsidy from the Health Insurance Exchange. Your second plan option is the MEC Wellness/Preventive Plan. This plan covers wellness and preventative services, such as immunization and routine health screening, only. This plan is in compliance with ACA rules and regulations, but it does not cover medical services or conditions caused by accident or illness. Enrolling in the MEC Wellness/Preventive Plan satisfies the Individual Mandate and you will not be taxed for failing to purchase insurance required by the Affordable Care Act. This plan does not allow you to receive a subsidy from the Health Insurance Exchange. You may cancel or reduce coverage at any time. You will only have 30 days from your hire date or first paycheck date to enroll, add additional benefits or add additional insured members. After this time frame, you will only be allowed to enroll, add benefits or add additional insured members during your annual open enrollment period or within 30 days of a qualifying life event. Click here to view a list of qualifying life events. </p>
   <div class="buttons">
@@ -57,10 +64,36 @@
     <button class="button1 info">Download Summary of Plan Benefits for MEC</button>
     <button class="button1 info"><a href="http://www.paisc.com/members.aspx">Get Claims Forms and Member Information</a></button>
   </div>
-
-  </div>
-  <h1>For additional information, call Essential StaffCARE Customer Service at (866) 798-0803</h1>
 </div>
+  <div id="network" class="Q1 tab-pane fade in">
+    <h3>Q: How will your new medical benefits work?</h3>
+    <p> A: With Option 1, the Fixed Indemnity Medical Plan, If you go to an in-network provider, the benefits will be assigned directly to your provider to pay for all or a portion of the discounted cost of services. If the amount of payment exceeds the cost of the service, you will receive the difference directly from Essential StaffCARE. If the discounted amount exceeds the payment, you are responsible for paying the provider the difference. If you go out-of-network, you will be required to file a claim and the benefit amount will be paid directly to you. To find out if your provider is in-network, visit www.firsthealth.com or call 800-226-5116. See more information on prescription, dental and vision networks by clicking the link below.
+      With Option 2, the MEC Wellness/Preventive Plan, if you go to an in-network provider, your services will be 100% covered. If you go to an out-of-network provided, your services will be 40% covered. To find out if your provider is in-network, visit www.firsthealth.com or call 800-226-5116.</p>
+    <h3>Q: What if you need to have a prescription filled?</h3>
+    <p>A: For the Fixed Indemnity Medical Plan, the plan pays you a per day up to the annual prescription drug maximum for generic and brand prescriptions dispensed by a pharmacist. Prescription drug coverage is not provided for drugs administered during a physician office visit or hospital stay. If you choose a participating pharmacy and present your ID card, you will receive a discount off the retail price of the prescription at the time of purchase. Save your receipt to file a claim for reimbursement of the fixed dollar amount. See more information on prescription, dental and vision networks by clicking the link below.
+        The MEC Wellness/Preventive Plan does not offer prescription benefits.</p>
+        <div class="buttons">
+          <button class="button3 info">Network Information</button>
+        </div>
+  </div>
+  <div id="aca" class="Q1 tab-pane fade in">
+    <h3>Q: Do the Essential StaffCARE programs meet the individual mandate required per the Affordable Care Act?</h3>
+      <p>A: The Fixed Indemnity Medical Plan does not satisfy the individual Mandate. Indemnity programs are defined as “Excepted” benefits in regards to the ACA (they are in the same category of supplemental benefits such as Dental and Vision insurance). Note: Indemnity programs are not Major Medical Insurance.
+        The MEC Wellness/Preventive Plan satisfies the Individual Mandate. For more information please visit www.healthcare.gov.</p>
+    <h3>Q: Why should you enroll in the Fixed Indemnity Medical Plan if it does not meet the ACA individual Mandate?</h3>
+    <p>A: Indemnity plans are supplemental benefits designed to help cover out of pocket costs. If you choose to enroll in the new Health Insurance Marketplaces for a qualified plan, or have access to other qualified coverage, you may have a deductible, co-pays, or other out of pocket costs. An indemnity plan provides income replacement for these out of pocket costs. This plan will provide benefits regardless of any other coverage you may have.</p>
+      <div class="buttons">
+        <button class="button4 info">Interested in the Federal Exchange?</button>
+      </div>
+  </div>
+
+  <div>
+    <h1>For additional information, call Essential StaffCARE Customer Service at (866) 798-0803</h1>
+  </div>
+</div>
+
+
+
 
 
 <div class="foot">
@@ -69,6 +102,14 @@
 
 </div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+$(".divider").on("click", function() {
+    $(this).css("background", "rgba(0, 125, 194, .8)");
+});
+</script>
 </body>
 
 
