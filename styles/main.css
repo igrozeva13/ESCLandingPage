@@ -1,3 +1,17 @@
+/* ----------------------- Media Queries
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (min-width: 1025px) {
+
+}
+----------------------------------- */
+
 /* ----------------------- Body ----------------------------------- */
 p {
   font-family: "Gotham";
@@ -49,33 +63,6 @@ h3 {
   text-align: center;
 }
 
-.ESC_logo {
-  padding: 12px;
-  width: 10%;
-  height: auto;
-  display: inline-block;
-  position: relative;
-  float: left;
-  left: 40%;
-  margin: 10px;
-}
-
-.subhead {
-  font-family: "Gotham";
-  color: white;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #13b5ea;
-  border-left: none;
-  border-right: none;
-  width: 15%;
-  padding: 10px;
-  display: inline-block;
-  position: relative;
-  margin-top: 20px;
-  float: right;
-  right: 33%;
-}
 
 /* ----------------------- Slideshow Wrapper ----------------------------------- */
 
@@ -90,18 +77,165 @@ h3 {
   display: block;
 }
 
+
+
+/* ----------------------- Small ----------------------------------- */
+@media only screen and (min-width: 769px) and (max-width: 1239px) {
 .content {
   background-color: rgba(255,255,255,.8);
   border-radius: 15px;
   width: 35%;
-  height: auto;
+  max-height: 400px;
   padding: 20px;
   position: absolute;
-  top: 25%;
+  top: 200px;
   left: 60%;
+  right: 100px;
   text-align: center;
   z-index: 1;
   float: right;
+}
+
+.ESC_logo {
+  padding: 12px;
+  width: 10%;
+  height: auto;
+  display: inline-block;
+  position: relative;
+  float: left;
+  left: 35%;
+  margin: 10px;
+}
+
+.subhead {
+  font-family: "Gotham";
+  color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #13b5ea;
+  border-left: none;
+  border-right: none;
+  width: 27%;
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  margin-top: 2%;
+  float: right;
+  right: 23%;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+}
+
+/* ----------------------- Medium ----------------------------------- */
+@media only screen and (min-width: 1240px) and (max-width: 1679px) {
+.content {
+  background-color: rgba(255,255,255,.8);
+  border-radius: 15px;
+  width: auto;
+  max-height: 475px;
+  padding: 20px;
+  position: absolute;
+  top: 275px;
+  left: 55%;
+  right: 100px;
+  text-align: center;
+  z-index: 1;
+  float: right;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+.ESC_logo {
+  padding: 12px;
+  width: 10%;
+  height: auto;
+  display: inline-block;
+  position: relative;
+  float: left;
+  left: 35%;
+  margin: 10px;
+}
+
+.subhead {
+  font-family: "Gotham";
+  color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #13b5ea;
+  border-left: none;
+  border-right: none;
+  width: 30%;
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  margin-top: 2%;
+  float: right;
+  right: 23%;
+  font-size: 14px;
+}
+}
+
+/* ----------------------- Large----------------------------------- */
+
+@media only screen and (min-width: 1680px) {
+.content {
+  background-color: rgba(255,255,255,.8);
+  border-radius: 15px;
+  width: auto;
+  max-height: 450px;
+  padding: 20px;
+  position: absolute;
+  top: 430px;
+  left: 60%;
+  right: 100px;
+  text-align: center;
+  z-index: 1;
+  float: right;
+}
+
+.ESC_logo {
+  padding: 12px;
+  width: 10%;
+  height: auto;
+  display: inline-block;
+  position: relative;
+  float: left;
+  left: 35%;
+  margin: 10px;
+}
+
+.subhead {
+  font-family: "Gotham";
+  color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #13b5ea;
+  border-left: none;
+  border-right: none;
+  width: 30%;
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  margin-top: 2%;
+  float: right;
+  right: 23%;
+  font-size: 18px;
+}
 }
 
 .grouplogo{
@@ -182,6 +316,10 @@ a:visited {
 
 /* ----------------------- FAQ Area ----------------------------------- */
 
+button:hover{
+  background: rgba(19, 181, 234, 1);
+}
+
 .button1 {
   border-radius: 5px;
   background-color: #113f67;
@@ -237,7 +375,7 @@ a:visited {
   height: 50px;
   padding: 10px 20px 10px 10px;
   float: left;
-  margin-left: 10%;
+  margin-left: 6%;
 }
 
 .footer {

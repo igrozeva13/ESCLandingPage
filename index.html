@@ -9,21 +9,25 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="styles/main.css">
+  <script type="text/javascript" src="jquery/script.js"></script>
 </head>
 
 
 <body>
 
+<!-- -            Header            -->
 <div class="header">
-  <img class="ESC_logo" alt="ESC_logo" src="img/IAG_ESC_Logo2016_white.png">
+  <a href="http://www.essentialstaffcare.com"><img class="ESC_logo" alt="ESC_logo" src="img/IAG_ESC_Logo2016_white.png"></a>
   <p class="subhead">Providing Your Health Insurance Benefits for 2017</p>
 </div>
 
+<!-- -            Slideshow            -->
 <div class= "wrapper">
     <div class="background-wrapper">
       <img class="businessmen" alt="businessmen" src="img/businessmen.jpg">
     </div>
 
+<!-- -            Floatng Box            -->
     <div class="content">
      <img class="grouplogo" alt="grouplogo" src="img/spherion.png">
       <h1>Start your Benefit Selection</h1>
@@ -32,25 +36,19 @@
       <h1>Your Group Number is: #######</h1>
     </div>
 
+
+<!-- -            Tabs            -->
     <div class="tab">
       <ul>
-      <li class="tab1 active"><a data-toggle="tab" href="#plan">Plan Options</a></li>
-      <li class="tab2"><a data-toggle="tab" href="#network">Network Information</a></li>
-      <li class="tab3"><a data-toggle="tab" href="#aca">ACA Information</a></li>
+      <a data-toggle="tab" href="#plan"><li class="tab1 active">Plan Options</li></a>
+      <a data-toggle="tab" href="#network"><li class="tab2">Network Information</li></a>
+      <a data-toggle="tab" href="#aca"><li class="tab3">ACA Information</li></a>
       </ul>
     </div>
 
 
     <div class="divider">
     </div>
-
-<!--
-
-    <div class="tab2 divider" >
-    </div>
-
-    <div class="tab3 divider">
-    </div> -->
 
 </div>
 
@@ -94,7 +92,7 @@
 
 
 
-
+<!-- -            Footer            -->
 
 <div class="foot">
   <img class="IAG_logo" alt="IAG_logo" src="img/IAG15_Logo_Bug_White.png">
@@ -104,12 +102,6 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-
-<script>
-$(".divider").on("click", function() {
-    $(this).css("background", "rgba(0, 125, 194, .8)");
-});
-</script>
 </body>
 
 
