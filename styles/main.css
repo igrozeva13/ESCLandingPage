@@ -78,18 +78,218 @@ h3 {
 }
 
 
+/* ----------------------- Links Buttons ----------------------------------- */
 
-/* ----------------------- Small ----------------------------------- */
-@media only screen and (min-width: 769px) and (max-width: 1239px) {
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #007dc3;
+}
+
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+button:hover{
+  background: rgba(19, 181, 234, 1);
+}
+
+/* ------------------------------------------------- Mobile --------------------------------------------- */
+@media only screen and (max-width: 1023px) {
 .content {
   background-color: rgba(255,255,255,.8);
   border-radius: 15px;
-  width: 35%;
+  width: auto;
   max-height: 400px;
   padding: 20px;
-  position: absolute;
   top: 200px;
   left: 60%;
+  right: 100px;
+  text-align: center;
+  z-index: 1;
+}
+
+.ESC_logo {
+  width: 25%;
+  height: auto;
+  display: inline-block;
+  position: relative;
+  float: left;
+  left: 37.5%;
+  margin: 15px 0px 15px 0px;
+  padding-top: 10px;
+}
+
+.subhead {
+  font-family: "Gotham";
+  color: white;
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  font-size: 14px;
+  padding: 0px;
+}
+
+h1 {
+  font-size: 20px;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+
+.header {
+  background-color: rgba(17, 63, 103, 1);
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+
+.businessmen {
+  height: auto;
+  width: 100%;
+  display: block;
+  padding-top: 110px;
+}
+
+/* ----------------------------------------- Tabs and List (mobile) ------------------------------------ */
+
+ul {
+  list-style: none;
+  margin: 20px 0px 0px 0px;
+  padding: 0px;
+}
+
+li{
+  display: inline-block;
+  text-align: center;
+  margin-left: 0px;
+  padding: 10px;
+  font-family: "Gotham";
+  font-weight: bold;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.tab1 {
+    background-color: rgba(17, 63, 103, 1);
+}
+
+.tab2 {
+    background-color: rgba(0, 125, 194, 1);
+}
+
+.tab3 {
+    background-color: rgba(19, 181, 234, 1);
+}
+
+.button2 {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 5px 20px 5px 20px;
+}
+
+.divider {
+  display: none;
+}
+
+
+/* ------------------------------------------ FAQ Area (mobile)---------------------------------------- */
+
+
+.button1 {
+  border-radius: 5px;
+  background-color: #113f67;
+  font-size: 11px;
+  padding: 10px 15px 10px 15px;
+}
+
+.info {
+  margin: 0px 20px 15px 20px;
+}
+
+.button3 {
+  border-radius: 5px;
+  background-color: rgba(0, 125, 194, 1);
+  font-size: 11px;
+  padding: 10px 15px 10px 15px;
+}
+
+.button4 {
+  border-radius: 5px;
+  background-color: rgba(19, 181, 234, 1);
+  font-size: 11px;
+  padding: 10px 15px 10px 15px;
+}
+
+.tab-content {
+  background-color: #e9eaeb;
+  overflow: auto;
+}
+
+.Q1 {
+  background-color: white;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin: -20px 20px 0px 20px;
+}
+
+.buttons {
+  padding: 10px;
+  display: block;
+  text-align: center;
+}
+/* ----------------------- Footer (mobile)----------------------------------- */
+
+.foot {
+  background-color: black;
+  height: auto;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.IAG_logo {
+  height: auto;
+  width: 80px;
+  padding: 20px 20px 10px 10px;
+  display: block;
+  margin: auto;
+}
+
+.footer {
+  font-family: "Gotham";
+  font-size: 12px;
+  color: white;
+  padding-top: 17px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+}
+
+/* ----------------------- Small ----------------------------------- */
+@media only screen and (min-width: 1024px) and (max-width: 1239px) {
+.content {
+  background-color: rgba(255,255,255,.8);
+  border-radius: 15px;
+  width: 400px;
+  max-height: 420px;
+  padding: 20px;
+  position: absolute;
+  top: 150px;
+  left: 55%;
   right: 100px;
   text-align: center;
   z-index: 1;
@@ -115,14 +315,14 @@ h3 {
   border-color: #13b5ea;
   border-left: none;
   border-right: none;
-  width: 27%;
+  width: 31%;
   padding: 10px;
   display: inline-block;
   position: relative;
   margin-top: 2%;
   float: right;
   right: 23%;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 h1 {
@@ -132,7 +332,6 @@ h1 {
 h2 {
   font-size: 16px;
 }
-
 }
 
 /* ----------------------- Medium ----------------------------------- */
@@ -242,146 +441,127 @@ h2 {
   max-height: 100px;
 }
 
-/* ----------------------- Tabs and List ----------------------------------- */
-
-ul {
-  list-style: none;
-  margin-bottom: 0px;
-  margin-top: -100px;
-  margin-left: 50px;
-}
-
-li{
-  display: inline-block;
-  text-align: center;
-  margin-right: 10px;
-  margin-left: 10px;
-  padding: 10px;
-  font-family: "Gotham";
-  font-weight: bold;
-  color: white;
-  width: 200px;
-  text-align: center;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
 
 
-.tab1 {
-    background-color: rgba(17, 63, 103, .8);
-}
+/* -------------------------------------- Small-Large ------------------------------------------------ */
 
-.tab2 {
-    background-color: rgba(0, 125, 194, .8);
-}
+@media only screen and (min-width: 1024px) {
 
-.tab3 {
-    background-color: rgba(19, 181, 234, .8);
-}
+  /* ----------------------- Tabs and List----------------------------------- */
 
-.button2 {
-  background-color: rgba(0, 0, 0, 0);
-  padding: 5px 20px 5px 20px;
-}
+  ul {
+    list-style: none;
+    margin-bottom: 0px;
+    margin-top: -100px;
+    margin-left: 50px;
+  }
 
-.divider {
-  background: rgba(17, 63, 103, .8);
-  z-index: 2;
-  height: 20px;
-}
-
-
-/* ----------------------- Links Buttons ----------------------------------- */
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-a:hover {
-  text-decoration: none;
-  color: #007dc3;
-}
-
-a:active {
-  text-decoration: none;
-  color: white;
-}
-
-a:visited {
-  text-decoration: none;
-  color: white;
-}
+  li{
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    font-family: "Gotham";
+    font-weight: bold;
+    color: white;
+    width: 200px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
 
 
-/* ----------------------- FAQ Area ----------------------------------- */
+  .tab1 {
+      background-color: rgba(17, 63, 103, .8);
+  }
 
-button:hover{
-  background: rgba(19, 181, 234, 1);
-}
+  .tab2 {
+      background-color: rgba(0, 125, 194, .8);
+  }
 
-.button1 {
-  border-radius: 5px;
-  background-color: #113f67;
-  font-size: 16px;
-  padding: 10px 15px 10px 15px;
-}
+  .tab3 {
+      background-color: rgba(19, 181, 234, .8);
+  }
 
-.info {
-  margin: 0px 20px 30px 20px;
-}
+  .button2 {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 5px 20px 5px 20px;
+  }
 
-.button3 {
-  border-radius: 5px;
-  background-color: rgba(0, 125, 194, 1);
-  font-size: 16px;
-  padding: 10px 15px 10px 15px;
-}
+  .divider {
+    background: rgba(17, 63, 103, .8);
+    z-index: 2;
+    height: 20px;
+  }
 
-.button4 {
-  border-radius: 5px;
-  background-color: rgba(19, 181, 234, 1);
-  font-size: 16px;
-  padding: 10px 15px 10px 15px;
-}
+  /* ----------------------- FAQ Area ----------------------------------- */
 
-.tab-content {
-  background-color: #e9eaeb;
-  overflow: auto;
-}
 
-.Q1 {
-  background-color: white;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  margin: -20px 100px 50px 100px;
-}
+  .button1 {
+    border-radius: 5px;
+    background-color: #113f67;
+    font-size: 16px;
+    padding: 10px 15px 10px 15px;
+  }
 
-.buttons {
-  padding: 10px;
-  display: block;
-  text-align: center;
-}
+  .info {
+    margin: 0px 20px 30px 20px;
+  }
 
-/* ----------------------- Footer ----------------------------------- */
+  .button3 {
+    border-radius: 5px;
+    background-color: rgba(0, 125, 194, 1);
+    font-size: 16px;
+    padding: 10px 15px 10px 15px;
+  }
 
-.foot {
-  background-color: black;
-  height: 55px;
-  width: 100%;
-}
+  .button4 {
+    border-radius: 5px;
+    background-color: rgba(19, 181, 234, 1);
+    font-size: 16px;
+    padding: 10px 15px 10px 15px;
+  }
 
-.IAG_logo {
-  height: 50px;
-  padding: 10px 20px 10px 10px;
-  float: left;
-  margin-left: 6%;
-}
+  .tab-content {
+    background-color: #e9eaeb;
+    overflow: auto;
+  }
 
-.footer {
-  font-family: "Gotham";
-  font-size: 12px;
-  color: white;
-  padding-top: 17px;
-  margin-bottom: 0px;
+  .Q1 {
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin: -20px 100px 50px 100px;
+  }
+
+  .buttons {
+    padding: 10px;
+    display: block;
+    text-align: center;
+  }
+  /* ----------------------- Footer ----------------------------------- */
+
+  .foot {
+    background-color: black;
+    height: 55px;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+
+  .IAG_logo {
+    height: 50px;
+    padding: 10px 20px 10px 10px;
+    float: left;
+    margin-left: 6%;
+  }
+
+  .footer {
+    font-family: "Gotham";
+    font-size: 12px;
+    color: white;
+    padding-top: 17px;
+    margin-bottom: 0px;
+  }
+
 }
