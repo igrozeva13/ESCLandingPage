@@ -71,12 +71,6 @@ h3 {
   z-index: -1;
 }
 
-.businessmen {
-  height: auto;
-  width: 100%;
-  display: block;
-}
-
 
 /* ----------------------- Links Buttons ----------------------------------- */
 
@@ -332,6 +326,12 @@ h1 {
 h2 {
   font-size: 16px;
 }
+
+.businessmen {
+  height: auto;
+  width: 100%;
+  display: block;
+}
 }
 
 /* ----------------------- Medium ----------------------------------- */
@@ -387,6 +387,12 @@ h2 {
   right: 23%;
   font-size: 14px;
 }
+
+.businessmen {
+  height: auto;
+  width: 100%;
+  display: block;
+}
 }
 
 /* ----------------------- Large----------------------------------- */
@@ -435,13 +441,50 @@ h2 {
   right: 23%;
   font-size: 18px;
 }
+
+.businessmen {
+  height: auto;
+  width: 100%;
+  display: block;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 0px;
+  margin-top: -100px;
+  margin-left: 150px;
+}
+
+.Q1 {
+  background-color: white;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin: -20px 200px 50px 200px;
+}
+
 }
 
 .grouplogo{
   max-height: 100px;
 }
 
+/* -------------------------------------- Small-Medium ------------------------------------------------ */
 
+@media only screen and (min-width: 1024px) and (max-width: 1679px) {
+  ul {
+    list-style: none;
+    margin-bottom: 0px;
+    margin-top: -100px;
+    margin-left: 50px;
+  }
+  .Q1 {
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin: -20px 100px 50px 100px;
+  }
+
+}
 
 /* -------------------------------------- Small-Large ------------------------------------------------ */
 
@@ -449,12 +492,6 @@ h2 {
 
   /* ----------------------- Tabs and List----------------------------------- */
 
-  ul {
-    list-style: none;
-    margin-bottom: 0px;
-    margin-top: -100px;
-    margin-left: 50px;
-  }
 
   li{
     display: inline-block;
@@ -526,13 +563,6 @@ h2 {
   .tab-content {
     background-color: #e9eaeb;
     overflow: auto;
-  }
-
-  .Q1 {
-    background-color: white;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    margin: -20px 100px 50px 100px;
   }
 
   .buttons {
