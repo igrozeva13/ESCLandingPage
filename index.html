@@ -32,7 +32,13 @@
      <img class="grouplogo" alt="grouplogo" src="img/spherion.png">
       <h1>Start your Benefit Selection</h1>
       <h2>To enroll in the Fixed Indemnity Medical Plan or the MEC Wellness/Preventive Plan, click the “Enroll/Decline Now” link below. For more information and plan details, see below.</h2>
-      <button class="button1"><a class="eform" href="https://benefits.verisourcesvc.com/paiesc/">ENROLL/DECLINE NOW</a></button>
+      <form method="post" action="https://benefits.verisourcesvc.com/paiesc/BenefitGroup.aspx">
+          <input type="hidden" name="access" value="214800041">
+          <input type="hidden" name="password" value="SMA2148">
+          <input type="hidden" name="conturl" value="http://essentialstaffcare.com/enrollment_complete/">
+          <input type="hidden" name="z_GroupEmailAddress" value="ESC@cornerstonestaffing.com">
+          <a class="button button1" href="linkout" target="_blank" role="button">ENROLL/DECLINE NOW</a>
+      </form>
       <h1>Your Group Number is: #######</h1>
     </div>
 
